@@ -1,0 +1,24 @@
+body {
+    background-color: blue;
+    color: white;
+}
+.main {
+    padding: 0 500px 0 500px;
+}
+.cast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.cast .weather-info {
+    display: flex;
+    align-items: center;
+}
+.cast .weather-info p {
+    margin: 0 10px;
+}
+.cast .weather-info img {
+    /* width: 30px; */
+    height: auto;
+}
